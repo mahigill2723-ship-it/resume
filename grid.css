@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 200px;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.container .col {
+  display: flex;
+}
+
+.container .col img {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.c {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.z {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.h {
+  grid-column: span 2;
+}
